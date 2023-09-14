@@ -8,9 +8,9 @@
         "Levels": {
             "M": "male",
             "F": "female"
-        }
+    },
     "age": {
         "Description": "age of the participant at first scan",
         "Units": "years"
-    },
+    }
 }
