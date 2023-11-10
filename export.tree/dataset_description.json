@@ -1,0 +1,32 @@
+{
+    "Name": "ON-Harmony: A resource for development and comparison of multi-modal brain 3T MRI harmonisation approaches",
+    "BIDSVersion": "1.8.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "S. Warrington",
+        "A. Ntata",
+        "O. Mougin",
+        "J. Campbell",
+        "A. Torchi",
+        "M. Craig",
+        "F. Alfaro-Almagro",
+        "K.L. Miller",
+        "P.S. Morgan",
+        "M. Jenkinson",
+        "S.N. Sotiropoulos"
+    ],
+    "HowToAcknowledge": "Please cite this paper: Warrington, Ntata, et al. (2023) A resource for development and comparison of multi-modal brain 3T MRI harmonisation approaches, bioRxiv",
+    "Funding": [
+        "ERC Consolidator grant (101000969 to S.N.S.]",
+        "EPSRC",
+        "MRC ONBI CDT",
+        "Nottingham BRC",
+        "Wellcome Trust Center grant [203139/Z/16/Z)"
+    ],
+    "EthicsApprovals": [
+        "Nottingham data: S.N.S. (PI) FMHS-36-1220-03 and H14082014/47",
+        "Oxford data: technical development approved by the Oxford University Clinical Trials and Research Governance office"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds004712.v1.0.1",
+    "License": "CC0"
+}
