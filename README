@@ -1,12 +1,11 @@
 # README
 
-This repository contains the ON-Harmony data resource associated with the manuscript "A resource for development and comparison of multi-modal brain 3T MRI harmonisation approaches".
+This repository contains the ON-Harmony data resource associated with the manuscript "A resource for development and comparison of multimodal brain 3T MRI harmonisation approaches".
 
 
 ## Details related to access to the data (following BIDS convention)
 
-- Citation: Warrington, Ntata et al. "A resource for development and comparison of multi-modal brain 3T MRI harmonisation approaches", bioRxiv
-
+- Citation: Warrington, Ntata, et al. (2023) A resource for development and comparison of multimodal brain 3T MRI harmonisation approaches, Imaging Neuroscience, doi.org/10.1162/imag_a_00042
 
 ## Overview
 
@@ -21,6 +20,7 @@ This repository contains the ON-Harmony data resource associated with the manusc
 N = 10 healthy participants (mean age at recruitment 34 ± 9.4 years; 8 male, 2 female)
 
 Subject:       Sessions
+
 - 03286:       NOT1ACH001 NOT2ING001 NOT3GEM001 OXF1PRI001 OXF2PRI001 OXF3TRI001
 - 03997:       NOT1ACH001 NOT2ING001 NOT3GEM001 OXF1PRI001 OXF2PRI001 OXF3TRI001
 - 10975:       NOT1ACH001 NOT2ING001 NOT3GEM001 OXF1PRI001 OXF2PRI001 OXF3TRI001
@@ -35,6 +35,7 @@ Subject:       Sessions
 ### Apparatus
 
 Scanners:
+
 1. Philips Achieva, 
 2. Philips Ingenia, 
 3. GE MR750, 

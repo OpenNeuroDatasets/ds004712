@@ -15,18 +15,16 @@
         "M. Jenkinson",
         "S.N. Sotiropoulos"
     ],
-    "HowToAcknowledge": "Please cite this paper: Warrington, Ntata, et al. (2023) A resource for development and comparison of multi-modal brain 3T MRI harmonisation approaches, bioRxiv",
+    "HowToAcknowledge": "Please cite this paper: Warrington, Ntata, et al. (2023) A resource for development and comparison of multimodal brain 3T MRI harmonisation approaches, Imaging Neuroscience, doi.org/10.1162/imag_a_00042",
     "Funding": [
-        "ERC Consolidator grant (101000969 to S.N.S.]",
+        "ERC Consolidator grant (101000969 to S.N.S.)",
         "EPSRC",
         "MRC ONBI CDT",
         "Nottingham BRC",
-        "Wellcome Trust Center grant [203139/Z/16/Z)"
+        "Wellcome Trust Center grant (203139/Z/16/Z)"
     ],
     "EthicsApprovals": [
         "Nottingham data: S.N.S. (PI) FMHS-36-1220-03 and H14082014/47",
         "Oxford data: technical development approved by the Oxford University Clinical Trials and Research Governance office"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds004712.v1.0.1",
-    "License": "CC0"
+    ]
 }
