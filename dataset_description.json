@@ -1,5 +1,5 @@
 {
-    "Name": "ON-Harmony: A resource for development and comparison of multi-modal brain 3T MRI harmonisation approaches",
+    "Name": "ON-Harmony: A resource for development and comparison of multimodal brain 3T MRI harmonisation approaches",
     "BIDSVersion": "1.8.0",
     "DatasetType": "raw",
     "Authors": [
@@ -26,5 +26,6 @@
     "EthicsApprovals": [
         "Nottingham data: S.N.S. (PI) FMHS-36-1220-03 and H14082014/47",
         "Oxford data: technical development approved by the Oxford University Clinical Trials and Research Governance office"
-    ]
+    ],
+    "License": "CC0"
 }
