@@ -1,13 +1,13 @@
 {
-    "Name": "ON-Harmony: A resource for development and comparison of multimodal brain 3T MRI harmonisation approaches",
+    "Name": "ON-Harmony: A resource for development and comparison of multi-modal brain 3T MRI harmonisation approaches",
     "BIDSVersion": "1.8.0",
     "DatasetType": "raw",
     "Authors": [
         "S. Warrington",
+	"A. Torchi",
+	"O. Mougin",
         "A. Ntata",
-        "O. Mougin",
         "J. Campbell",
-        "A. Torchi",
         "M. Craig",
         "F. Alfaro-Almagro",
         "K.L. Miller",
@@ -15,18 +15,12 @@
         "M. Jenkinson",
         "S.N. Sotiropoulos"
     ],
-    "HowToAcknowledge": "Please cite this paper: Warrington, Ntata, et al. (2023) A resource for development and comparison of multimodal brain 3T MRI harmonisation approaches, Imaging Neuroscience, doi.org/10.1162/imag_a_00042",
+    "HowToAcknowledge": "Please cite this paper: ",
     "Funding": [
         "ERC Consolidator grant (101000969 to S.N.S.)",
-        "EPSRC",
-        "MRC ONBI CDT",
-        "Nottingham BRC",
-        "Wellcome Trust Center grant (203139/Z/16/Z)"
     ],
     "EthicsApprovals": [
-        "Nottingham data: S.N.S. (PI) FMHS-36-1220-03 and H14082014/47",
-        "Oxford data: technical development approved by the Oxford University Clinical Trials and Research Governance office"
-    ],
-    "License": "CC0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds004712.v1.0.2"
+	"For cohort B, all data have been acquired under University of Nottingham Research ethics FMHS-452-0122, also approved by University of Oxford Medical Sciences Research Ethics Committee (R79669/RE001)."
+        "For cohort A, Nottingham data: S.N.S. (PI) FMHS-36-1220-03 and H14082014/47. Oxford data: technical development approved by the Oxford University Clinical Trials and Research Governance office."
+    ]
 }

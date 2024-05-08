@@ -13,5 +13,12 @@
     "age": {
         "Description": "age of the participant at first scan",
         "Units": "years"
+    },
+        "cohort": {
+        "Description": "cohort of the participant",
+        "Levels": {
+            "A": "cohort A",
+            "B": "cohort B"
+                  }
     }
 }
