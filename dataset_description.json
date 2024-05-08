@@ -17,10 +17,10 @@
     ],
     "HowToAcknowledge": "Please cite this paper: ",
     "Funding": [
-        "ERC Consolidator grant (101000969 to S.N.S.)",
+        "ERC Consolidator grant (101000969 to S.N.S.)"
     ],
     "EthicsApprovals": [
-	"For cohort B, all data have been acquired under University of Nottingham Research ethics FMHS-452-0122, also approved by University of Oxford Medical Sciences Research Ethics Committee (R79669/RE001)."
+	"For cohort B, all data have been acquired under University of Nottingham Research ethics FMHS-452-0122, also approved by University of Oxford Medical Sciences Research Ethics Committee (R79669/RE001).",
         "For cohort A, Nottingham data: S.N.S. (PI) FMHS-36-1220-03 and H14082014/47. Oxford data: technical development approved by the Oxford University Clinical Trials and Research Governance office."
     ]
 }
