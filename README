@@ -108,9 +108,7 @@ At time of release, SWI data were not yet incorporated in to the BIDS standard. 
 
 
 Minor deviations of protocols for individual scans
-The majority of subjects were acquired using the same protocols. However, for some subjects
-there were minor deviations in some protocol parameters that we describe here for
-completeness.
+The majority of subjects were acquired using the same protocols. However, for some subjects there were minor deviations in some protocol parameters that we describe here for completeness.
 
 Cohort A
 - 3T GE MR750 fMRI: For the fMRI scan sub-03286/ses-NOT3GEM, we acquired two versions of the rfMRI data with i) an isotropic spatial resolution of 2.4mm and ii) a spatial resolution of 2.2x2.2x3.4mm. For 6 subjects scanned under the 3T GE MR750 (03286, 03997, 10975, 12813, 14482, 14221) there was a mismatch in PE direction between dMRI and fMRI that needs to be accounted for in the processing pipeline.
