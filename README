@@ -10,14 +10,14 @@ This repository contains the ON-Harmony data resource associated with the manusc
 ## Overview
 
 - Project name: ON-Harmony: A resource for development and comparison of multi-modal brain 3T MRI harmonisation approaches
-- Years that the project ran: 2018-2021 (Cohort A), 2023-2024 (Cohort B)
-- Description of the contents of the dataset: 2 cohorts, each including ten participants, six 3T scanners across five sites and three major vendors, within-participant within-scanner and between-scanner repeats, five modalities. Cohort A has 4 subjects, each with 6 within-scanner repeats. Cohort B has 5 subjects, each with 5 within-scanner repeats.
+- Years that the project ran: 2018-2021 (Phase A), 2023-2024 (Phase B)
+- Description of the contents of the dataset: 20 participants, each scanned in 6 3T scanners across 5 sites and 3 major vendors, 5 modalities. 9 participants with 6 within-scanner repeats as well. Data collected in 2 phases, with 10 participants in each phase. 
 
 ## Methods
 
 ### Subjects
 
-Cohort A
+Phase A
 
 N = 10 healthy participants (mean age at recruitment 34 ± 9.4 years; 8 male, 2 female)
 
@@ -35,7 +35,7 @@ Subject:       Sessions
 - 14482:       NOT1ACH001 NOT1ACH002 NOT1ACH003 NOT1ACH004 NOT1ACH005 NOT1ACH006 NOT2ING001 NOT3GEM001 OXF1PRI001 OXF2PRI001 OXF3TRI001
 
 
-Cohort B
+Phase B
 
 N = 10 healthy participants (mean age at recruitment 29.8 ± 11.4 years; 5 male, 5 female)
 
@@ -67,9 +67,9 @@ Scanners:
 7. GE Premier (48ch) (NOT4GEP),
 8. GE Premier (21ch) (OXF4GEP)
 
-Cohort A data were acquired using Scanners 1-6.
-Cohort B data were acquired using used Scanner 1,2,4,5,7,8. 
-Scanners 1,2,4,5 are overlapping between the two cohorts.
+Phase A data were acquired using Scanners 1-6.
+Phase B data were acquired using used Scanner 1,2,4,5,7,8. 
+Scanners 1,2,4,5 are overlapping between the two phases.
 
 
 Modalities:
@@ -88,12 +88,12 @@ Scanners are located across five sites in the United Kingdom.
 
 1. 3T Philips Achieva: SPMIC, Nottingham
 2. 3T Philips Ingenia: SPMIC, Nottingham
-3. 3T GE MR750 (1st cohort only): SPMIC-QMC, Nottingham
+3. 3T GE MR750 (phase A only): SPMIC-QMC, Nottingham
 4. 3T Siemens Prisma (32ch): WIN-FMRIB, John Radcliffe Hospital, Oxford 
 5. 3T Siemens Prisma (64ch): WIN-OHBA, Warneford Hospital, Oxford 
-6. 3T Siemens Trio (1st cohort only): OCMR, John Radcliffe Hospital, Oxford
-7. 3T GE Premier (48ch) (2nd cohort only): SPMIC-QMC, Nottingham
-8. 3T GE Premier (21ch) (2nd cohort only): OCMR, John Radcliffe Hospital, Oxford
+6. 3T Siemens Trio (phase A only): OCMR, John Radcliffe Hospital, Oxford
+7. 3T GE Premier (48ch) (phase B only): SPMIC-QMC, Nottingham
+8. 3T GE Premier (21ch) (phase B only): OCMR, John Radcliffe Hospital, Oxford
 
 - SPMIC - Sir Peter Mansfield Imaging Centre, University of Nottingham
 - SPMIC-QMC - SPMIC-Queen's Medical Centre, University of Nottingham
@@ -110,14 +110,14 @@ At time of release, SWI data were not yet incorporated in to the BIDS standard. 
 Minor deviations of protocols for individual scans
 The majority of subjects were acquired using the same protocols. However, for some subjects there were minor deviations in some protocol parameters that we describe here for completeness.
 
-Cohort A
+Phase A
 - 3T GE MR750 fMRI: For the fMRI scan sub-03286/ses-NOT3GEM, we acquired two versions of the rfMRI data with i) an isotropic spatial resolution of 2.4mm and ii) a spatial resolution of 2.2x2.2x3.4mm. For 6 subjects scanned under the 3T GE MR750 (03286, 03997, 10975, 12813, 14482, 14221) there was a mismatch in PE direction between dMRI and fMRI that needs to be accounted for in the processing pipeline.
 - Philips Achieva dMRI: In most cases, the dMRI protocol included 6 b=0 s/mm2 volumes. Four subjects (13305, 13192, 14229, 14230) were acquired with 2 b=0 s/mm2 volumes.
 - Philips Ingenia dMRI: In most cases, dMRI data were acquired using an in-plane acceleration factor of 1.5 (TE=98ms, TR=4.4s). For 4 subjects (13305, 13192, 14229, 14230), the dMRI data
 were acquired using an in-plane acceleration factor of 2 (TE=92ms, TR=3.9s).
 
 
-Cohort B
+Phase B
 - The fMRI scans sub-15320/ses-NOT2ING006/func/sub-15320_ses-NOT2ING006_task-rest_bold.nii.gz  and sub-16975/ses-NOT1ACH001/func/sub-16975_ses-NOT1ACH001_task-rest_bold.nii.gz are missing a volume, which has been excluded because it was corrupted during the scan.
 - The dMRI reversed-phase-encode b=0 sub-16793/ses-OXF4GEP001/dwi/sub-16793_ses-OXF4GEP001_dir-PA_dwi.nii.gz has been wrongly acquired with phase encode direction LR instead of PA.
 - No dMRI reversed-phase-encode b=0 sub-16794/ses-OXF4GEP001/dwi/sub-16794_ses-OXF4GEP001_dir-PA_dwi.nii.gz has been acquired and a smoothed one has been synthesised using Synb0-DisCo (Schilling et al., 2019, Magn. Res. Img., doi.org/10.1016/j.mri.2019.05.008) along the same direction as the one acquired. Synb0-DisCo settings should be used to obtain a field map using this data.
@@ -125,4 +125,4 @@ Cohort B
 
 
 Incidental Findings
-- A cortical hypointensity visible on the left hemisphere (for fMRI, dMRI and SWI) was observed for Subject 16766, cohort B. The subject is healthy and Incidental finding inspection deemed this as a non-pathological feature. Overall, the z-scored IDPs and QC measures for that subject scans were not considerably different from the mean of all subjects, so we kept the scans in the cohort.
+- A cortical hypointensity visible on the left hemisphere (for fMRI, dMRI and SWI) was observed for Subject 16766, phase B. The subject is healthy and Incidental finding inspection deemed this as a non-pathological feature. Overall, the z-scored IDPs and QC measures for that subject scans were not considerably different from the mean of all subjects, so we kept these scans.
