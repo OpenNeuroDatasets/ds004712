@@ -4,8 +4,8 @@
     "DatasetType": "raw",
     "Authors": [
         "S. Warrington",
-	    "A. Torchi",
-	    "O. Mougin",
+        "A. Torchi",
+        "O. Mougin",
         "A. Ntata",
         "J. Campbell",
         "M. Craig",
@@ -16,12 +16,9 @@
         "S.N. Sotiropoulos"
     ],
     "HowToAcknowledge": "Please cite this paper: Warrington, Ntata, et al. (2023) A resource for development and comparison of multimodal brain 3T MRI harmonisation approaches, Imaging Neuroscience, doi.org/10.1162/imag_a_00042",
-
     "Funding": [
         "ERC Consolidator grant (101000969 to S.N.S.)"
     ],
-    "EthicsApprovals": [
-	"For phase B, all data have been acquired under University of Nottingham Research ethics FMHS-452-0122  (S.N.S. PI) , also approved by University of Oxford Medical Sciences Research Ethics Committee (R79669/RE001).",
-    "For phase A, Nottingham data: FMHS-36-1220-03 and H14082014/47. Oxford data: technical development approved by the Oxford University Clinical Trials and Research Governance office."
-    ]
+    "EthicsApprovals": [],
+    "License": "CC0"
 }
