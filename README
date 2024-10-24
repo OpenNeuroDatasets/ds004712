@@ -82,8 +82,8 @@ Modalities:
 Scanners are located across five sites in the United Kingdom.
 
 
-1. 3T Philips Achieva: SPMIC, Nottingham
-2. 3T Philips Ingenia: SPMIC, Nottingham
+1. 3T Philips Achieva: SPMIC-UP, Nottingham
+2. 3T Philips Ingenia: SPMIC-UP, Nottingham
 3. 3T GE MR750 (phase A only): SPMIC-QMC, Nottingham
 4. 3T Siemens Prisma (32ch): WIN-FMRIB, John Radcliffe Hospital, Oxford
 5. 3T Siemens Prisma (64ch): WIN-OHBA, Warneford Hospital, Oxford
@@ -91,8 +91,8 @@ Scanners are located across five sites in the United Kingdom.
 7. 3T GE Premier (48ch) (phase B only): SPMIC-QMC, Nottingham
 8. 3T GE Premier (21ch) (phase B only): OCMR, John Radcliffe Hospital, Oxford
 
-- SPMIC - Sir Peter Mansfield Imaging Centre, University of Nottingham
-- SPMIC-QMC - SPMIC-Queen's Medical Centre, University of Nottingham
+- SPMIC-UP - Sir Peter Mansfield Imaging Centre, University Park, University of Nottingham
+- SPMIC-QMC - Sir Peter Mansfield Imaging Centre, Queen's Medical Centre Medical School, University of Nottingham
 - FMRIB - Oxford Centre for Functional MRI of the Brain, University of Oxford
 - OHBA - Oxford Centre for Human Brain Activity, University of Oxford
 - OCMR - Oxford Centre for Clinical Magnetic Resonance Research, University of Oxford
