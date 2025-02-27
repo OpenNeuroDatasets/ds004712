@@ -1,12 +1,16 @@
 # README
 
-This repository contains the ON-Harmony data resource associated with the manuscript "A resource for development and comparison of multimodal brain 3T MRI harmonisation approaches".
+This repository contains the ON-Harmony data resource associated with the manuscripts: 
 
+Warrington et al. (2023), "A resource for development and comparison of multimodal brain 3T MRI harmonisation approaches", Imaging Neuroscience, https://doi.org/10.1162/imag_a_00042
+
+Warrington et al. (2025), "A multi-site, multi-modal travelling-heads resource for brain MRI harmonisation", under-review, Scientific Data
 
 ## Overview
 
 - Project name: ON-Harmony: A resource for development and comparison of multi-modal brain 3T MRI harmonisation approaches
 - Years that the project ran: 2018-2021 (Phase A), 2023-2024 (Phase B)
+- Phase A was originally published in Warrington et al. (2023)
 - Description of the contents of the dataset: 20 participants, each scanned in 6 3T scanners across 5 sites and 3 major vendors, 5 modalities. 9 participants with 6 within-scanner repeats as well. Data collected in 2 phases, with 10 participants in each phase.
 
 ## Methods
