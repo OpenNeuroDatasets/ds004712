@@ -40,7 +40,7 @@
   "AcquisitionMatrixPE": 104,
   "ReconMatrixPE": 104,
   "ParallelReductionFactorInPlane": 2,
-  "EffectiveEchoSpacing": 0.000000000,
+  "EffectiveEchoSpacing": 0.000332738,
   "TotalReadoutTime": 0.034272,
   "PixelBandwidth": 4807.69,
   "PhaseEncodingDirection": "j",
